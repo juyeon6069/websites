@@ -1,0 +1,61 @@
+.template {
+  background: rgba(230, 227, 227, 0.795);
+  width: 90%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); /* 그림자 */
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.title {
+  padding: 300px;
+  margin-bottom: 40px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(
+      to bottom right,
+      rgba(29, 17, 17, 0.1) 40%,
+      rgba(20, 20, 20, 0.5) 70%,
+      rgba(20, 20, 20, 1)
+    ),
+    url(./images/flower.jpg);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  color: rgb(65, 83, 67);
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container-left {
+  background: rgba(230, 227, 227, 0.795);
+  flex: 3;
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.container-right {
+  background: rgba(230, 227, 227, 0.795);
+  flex: 7;
+  padding: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.list-container {
+  border-top: 30px solid grey;
+  padding: 40px;
+  min-height: 40px;
+}
