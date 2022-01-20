@@ -17,16 +17,30 @@ const Template = ({ form, list }) => {
           <p>Juyeon Nam</p>
         </div>
         <div className="container-right">
-          <p>
+          <p
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center"
+            }}
+          >
             <img
               className="Uni"
               alt="University"
               src="/images/Uni.png/"
               width="45px"
             ></img>
-            Computer Science, StonyBrook, SUNY,
+            <a href="http://sunykorea.ac.kr/page/sbu201070">
+              Computer Science, StonyBrook, SUNY,
+            </a>
           </p>
-          <p>
+          <p
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center"
+            }}
+          >
             <img
               className="Email"
               alt="Email"
@@ -35,7 +49,13 @@ const Template = ({ form, list }) => {
             ></img>
             juyeon.nam@stonybrook.edu
           </p>
-          <p>
+          <p
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center"
+            }}
+          >
             <img
               className="Phone"
               alt="Phone"
@@ -44,7 +64,13 @@ const Template = ({ form, list }) => {
             ></img>
             010-0000-0000
           </p>
-          <p>
+          <p
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center"
+            }}
+          >
             <img
               className="Click"
               alt="Club"

@@ -1,13 +1,19 @@
-import { StrictMode } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import { Router, Route, IndexRoute, browserHistory } from "react-router";
 
 import App from "./App";
+import Home from "./containers/Home";
+import About from "./containers/About";
 
-const rootElement = document.getElementById("root");
+import "./index.css";
+
 ReactDOM.render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-  rootElement
+  <Router history={browserHistory}>
+    <Route path="/" component={App}>
+      <IndexRoute component={Home} />
+      <Route path="about" component={About} />
+    </Route>
+  </Router>,
+  document.getElementById("root")
 );

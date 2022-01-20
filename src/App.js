@@ -1,9 +1,16 @@
 import React, { Component } from "react";
 import Template from "./components/Template";
+import Banner from "./components/Banner";
 
 class App extends Component {
   render() {
-    return <Template></Template>;
+    return (
+      <div>
+        <Banner />
+        {this.props.children}
+        <Template></Template>
+      </div>
+    );
   }
 }
 
